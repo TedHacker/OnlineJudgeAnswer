@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by TedHakcer on 2015/8/10 0010.
  * https://leetcode.com/problems/maximum-subarray/

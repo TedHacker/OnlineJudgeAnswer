@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by TedHakcer on 2015/8/11 0011.
  * https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/

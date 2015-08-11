@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by qinjuntao on 2015/8/10.
  * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/

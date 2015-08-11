@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * Created by qinjuntao on 2015/8/11.
  * https://leetcode.com/problems/reverse-linked-list/
