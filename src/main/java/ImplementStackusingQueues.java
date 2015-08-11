@@ -35,6 +35,7 @@ public class ImplementStackusingQueues {
             int tmp = 0;
             for (int i = 0; i < len; ++i) {
                 tmp = queue.peek();
+                queue.poll();
                 queue.offer(tmp);
             }
             return tmp;
