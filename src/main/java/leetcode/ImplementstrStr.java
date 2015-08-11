@@ -7,8 +7,9 @@ package leetcode;
 public class ImplementstrStr {
     public class Solution {
         public int strStr(String haystack, String needle) {
-            if (haystack == null || needle == null || haystack.length() < needle.length() || haystack.length() < 1 || needle.length() < 1)
+            if (haystack == null || needle == null || haystack.length() < needle.length())
                 return -1;
+            if (haystack.equals(needle) || needle.length() < 1) return 0; //当needle为""时，返回值都为0
             char first = needle.charAt(0);
             int i = 0, j = 0;
             for (; i < haystack.length(); ++i) {
