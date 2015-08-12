@@ -7,9 +7,22 @@ package leetcode;
 public class CompareVersionNumbers {
     public class Solution {
         public int compareVersion(String version1, String version2) {
-            String[] a = version1.split(".");
-            String[] b = version2.split(".");
-            return Integer.valueOf(a[0]).compareTo(Integer.valueOf(b[0])) == 0 ? Integer.valueOf(a[1]).compareTo(Integer.valueOf(b[1])) : Integer.valueOf(a[0]).compareTo(Integer.valueOf(b[0]));
+            String[] a = version1.split("\\.");//Òª×ªÒå
+            String[] b = version2.split("\\.");
+            int idx = 0;
+            for (; idx < a.length && idx < b.length; ++idx) {
+                if (Integer.valueOf(a[idx]) > Integer.valueOf(b[idx]))
+                    return 1;
+                if (Integer.valueOf(a[idx]) < Integer.valueOf(b[idx]))
+                    return -1;
+            }
+            for (; idx < a.length; ++idx) {
+                if (Integer.valueOf(a[idx]) > 0) return 1;
+            }
+            for (; idx < b.length; ++idx) {
+                if (Integer.valueOf(b[idx]) > 0) return -1;
+            }
+            return 0;
         }
     }
 }

@@ -17,6 +17,7 @@ public class RotateArray {
         }
 
         public void rotate(int[] nums, int k) {
+            k = k % nums.length;//k可能超过nums的长度
             reverse(nums, 0, nums.length - k);
             reverse(nums, nums.length - k, nums.length);
             reverse(nums, 0, nums.length);
