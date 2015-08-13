@@ -26,11 +26,9 @@ public class CourseSchedule {
             for (int i = 0; i < numCourses; ++i)
                 nodeList[i] = new Node();
             for (int i = 0; i < prerequisites.length; ++i) {
-                for (int j = 0; j < prerequisites[i].length; ++j) {
-                    if (i == prerequisites[i][j]) return false;//出现自回路
-                    nodeList[i].nextNode.add(prerequisites[i][j]);
-                    ++nodeList[prerequisites[i][j]].inNum;
-                }
+                if (prerequisites[i][0] == prerequisites[i][1]) return false;//出现自回路
+                nodeList[prerequisites[i][0]].nextNode.add(prerequisites[i][1]);
+                ++nodeList[prerequisites[i][1]].inNum;
             }
             int remain = numCourses;
             int idx = 0;

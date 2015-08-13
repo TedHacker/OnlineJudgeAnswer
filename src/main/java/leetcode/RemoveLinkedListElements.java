@@ -19,10 +19,9 @@ public class RemoveLinkedListElements {
             for (; head != null && head.val == val; head = head.next) ;
             if (head == null) return head;
             ListNode idx = head;
-            for (; idx != null && idx.next != null; idx = idx.next) {
-                if (idx.next.val == val) {
-                    idx.next = idx.next.next;
-                }
+            for (ListNode tmp = idx; idx != null && idx.next != null; idx = idx.next) {
+                for (tmp = idx; tmp.next != null && tmp.next.val == val; tmp=tmp.next) ;
+                idx.next = tmp.next;
             }
             return head;
         }
