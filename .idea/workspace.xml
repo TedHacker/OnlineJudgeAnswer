@@ -23,31 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RomantoInteger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/RomantoInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="e#304#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SameTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/SameTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/SearchInsertPosition.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +96,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniquePathsII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UniquePathsII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/UniquePathsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46952224">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueens.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NQueens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2800659">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueensII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NQueensII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -151,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/DivideTwoIntegers.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/PowerofTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/NQueensII.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ProductofArrayExceptSelf.java" />
@@ -202,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/UniqueBinarySearchTrees.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/UniquePaths.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/UniquePathsII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/NQueens.java" />
       </list>
     </option>
   </component>
@@ -646,16 +643,16 @@
       <workItem from="1439475955226" duration="6723000" />
       <workItem from="1439519481315" duration="9383000" />
       <workItem from="1439603672410" duration="5452000" />
-      <workItem from="1439614412813" duration="5160000" />
+      <workItem from="1439614412813" duration="6010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99712000" />
+    <option name="totallyTimeSpent" value="100562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -703,24 +700,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindMinimuminRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NQueensII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1151,9 +1134,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/UniquePathsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46952224">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NQueensII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2800659">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
