@@ -7,7 +7,7 @@ package leetcode;
 public class HouseRobber {
     public class Solution {
         public int rob(int[] nums) {
-            if (nums == null) return 0;
+            if (nums == null||nums.length<1) return 0;
             int[] a = new int[nums.length];//在第i户时不取第i户情况下的最大值
             int[] b = new int[nums.length];//在第i户时取第i户情况下的最大值
             a[0] = 0;
