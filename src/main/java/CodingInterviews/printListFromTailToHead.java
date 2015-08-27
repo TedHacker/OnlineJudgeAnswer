@@ -9,7 +9,7 @@ import java.util.List;
  * 从尾到头打印链表
  * Created by qinjuntao on 2015/8/27.
  */
-public class printListFromTailToHead {
+public class PrintListFromTailToHead {
     public class Solution {
 
         public class ListNode {

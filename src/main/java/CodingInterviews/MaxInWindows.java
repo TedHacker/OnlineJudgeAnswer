@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
+ * 滑动窗口的最大值
  * Created by qinjuntao on 2015/8/26.
  */
 public class MaxInWindows {
